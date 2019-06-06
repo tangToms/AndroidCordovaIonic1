@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'  data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <!--
+                引入ionic框架，使用ionic組件
+            -->
+    <link href="ionic-v1.3.3/css/ionic.css" rel="stylesheet">
+    <script src="ionic-v1.3.3/js/ionic.bundle.min.js"></script>
+
+    <title>Ionic Range</title>
+</head>
+<body>
+    <div class="range">
+        <i class="icon ion-volume-low"></i>
+        <input type="range" name="volume">
+        <i class="icon ion-volume-high"></i>
+    </div>
+
+    <div class="list">
+        <div class="item item-divider">
+            List range
+        </div>
+        <div class="item range">
+            <i class="icon ion-ios-sunny-outline"></i>
+            <input type="range" name="sunny">
+            <i class="icon ion-ios-sunny"></i>
+        </div>
+        <div class="item range">
+            <i class="icon ion-ios-moon-outline"></i>
+            <input type="range" name="moon">
+            <i class="icon ion-ios-moon"></i>
+        </div>
+    </div>
+</body>
+</html>

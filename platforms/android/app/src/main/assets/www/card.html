@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'  data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <!--
+                引入ionic框架，使用ionic組件
+            -->
+    <link href="ionic-v1.3.3/css/ionic.css" rel="stylesheet">
+    <script src="ionic-v1.3.3/js/ionic.bundle.min.js"></script>
+
+    <title>Ionic Card</title>
+</head>
+<body>
+    <div class="card">
+        <div class="item item-divider">卡片頭部</div>
+        <div class="item item-text-wrap">卡片內容</div>
+        <div class="item item-divider">卡片尾部</div>
+    </div>
+
+    <!--卡片列表-->
+    <div class="list card">
+        <a class="item item-icon-left">
+            <i class="icon ion-email"></i>
+            Mail
+        </a>
+        <a class="item item-icon-left">
+            <i class="icon ion-home"></i>
+            Home
+        </a>
+    </div>
+</body>
+</html>

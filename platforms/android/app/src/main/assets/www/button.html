@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'  data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <!--
+                引入ionic框架，使用ionic組件
+            -->
+    <link href="ionic-v1.3.3/css/ionic.css" rel="stylesheet">
+    <script src="ionic-v1.3.3/js/ionic.bundle.min.js"></script>
+
+    <title>Ionic Button</title>
+</head>
+<body>
+    <!--按鈕顏色背景-->
+    <button class="button">Default</button>
+
+    <button class="button button-light">button-light</button>
+
+    <button class="button button-stable">button-stable</button>
+
+    <button class="button button-positive">button-positive</button>
+
+    <button class="button button-calm">button-calm</button>
+
+    <button class="button button-balanced">button-balanced</button>
+
+    <button class="button button-energized">button-energized</button>
+
+    <button class="button button-assertive">button-assertive</button>
+
+    <button class="button button-royal">button-royal</button>
+
+    <button class="button button-dark">button-dark</button>
+
+    <!--按鈕填充父元素寬度-->
+    <button class="button button-dark button-block">button block</button>
+    <button class="button button-dark button-full">button full</button>
+
+    <!--按鈕大小-->
+    <button class="button button-dark button-small">button small</button>
+    <button class="button button-dark button-large">button large</button>
+
+    <!--按鈕邊框背景
+        outline:無背景，透明
+        clear:無邊框，透明
+        -->
+    <button class="button button-dark button-outline">button outline</button>
+    <button class="button button-dark button-clear">button clear</button>
+
+    <!--按鈕圖標-->
+    <button class="button icon-left ion-home">Home</button>
+    <button class="button icon-right ion-star">Favorites</button>
+    <a class="button icon-right ion-chevron-right button-calm">More</a>
+    <a class="button icon-left ion-chevron-left  button-calm">Back</a>
+    <button class="button icon ion-gear-a"></button>
+    <a class="button button-icon icon ion-settings"></a>
+    <a class="button button-outline icon-right ion-navicon button-balanced">Reorder</a>
+
+    <!--按鈕欄-->
+    <div class="bar bar-footer">
+        <div class="button-bar ">
+            <a class="button">First</a>
+            <a class="button">Second</a>
+            <a class="button">Third</a>
+        </div>
+    </div>
+</body>
+</html>

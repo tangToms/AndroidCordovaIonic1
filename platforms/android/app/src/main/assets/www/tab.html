@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'  data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <!--
+                引入ionic框架，使用ionic組件
+            -->
+    <link href="ionic-v1.3.3/css/ionic.css" rel="stylesheet">
+    <script src="ionic-v1.3.3/js/ionic.bundle.min.js"></script>
+    <title>Ionic Tab</title>
+</head>
+<body>
+    <!--普通tab
+        tabs-item-hide:隱藏tab
+        -->
+    <div class="tabs tabs-item-hide">
+        <a class="tab-item">首頁</a>
+        <a class="tab-item">收藏</a>
+        <a class="tab-item">通訊錄</a>
+    </div>
+    <!--只顯示圖標-->
+    <div class="tabs tabs-icon-only tabs-calm tabs-item-hide">
+        <a class="tab-item">
+            <i class="icon ion-home"></i>
+        </a>
+        <a class="tab-item">
+            <i class="icon ion-gear-a"></i>
+        </a>
+        <a class="tab-item">
+            <i class="icon ion-star"></i>
+        </a>
+    </div>
+
+
+    <!--顯示圖標文字-->
+    <div class="tabs tabs-icon-top tabs-calm tabs-item-hide">
+        <a class="tab-item">
+            <i class="icon ion-home"></i>
+            主頁
+        </a>
+        <a class="tab-item">
+            <i class="icon ion-gear-a"></i>
+            設置
+        </a>
+        <a class="tab-item">
+            <i class="icon ion-star"></i>
+            收藏
+        </a>
+    </div>
+
+
+    <div class="bar bar-header has-tabs-top">
+        <div class="h2 title">條紋選項卡</div>
+    </div>
+    <!--條紋選項卡-->
+    <div class="tabs tabs-striped tabs-top tabs-background-dark tabs-color-calm">
+        <a class="tab-item">
+            <i class="icon ion-home"></i>
+            主頁
+        </a>
+        <a class="tab-item">
+            <i class="icon ion-gear-a"></i>
+            設置
+        </a>
+        <a class="tab-item">
+            <i class="icon ion-star"></i>
+            收藏
+        </a>
+    </div>
+</body>
+</html>
